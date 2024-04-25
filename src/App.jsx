@@ -1,5 +1,5 @@
 import './App.css'
-import BROCHURE from "./assets/brochure.pdf";
+import BROCHURE from "../public/brochure.pdf";
 
 
 function App() {
