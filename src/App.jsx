@@ -1,30 +1,74 @@
 import './App.css'
-import BROCHURE from "../public/brochure.pdf";
-
-import { Worker, Viewer } from '@react-pdf-viewer/core';
-import '@react-pdf-viewer/core/lib/styles/index.css';
+import SectionBanderas from './components/Section.Banderas'
+import SectionElectronica from './components/Section.Electronica'
+import SectionHeros from './components/Section.Heros'
+import SectionInstrumentacion from './components/Section.Instrumentacion'
+import SectionMetalmecanica from './components/Section.Metalmecanica'
+import SectionServiciosIcon from './components/Section.ServiciosIcon'
+import SectionElectricidad from './components/Section.Electricidad'
+import SectionSuministros from './components/Section.Suministros'
+import SectionLampara from './components/Section.Lampara'
+import SectionPanelSolar from './components/Section.PanelSolar'
+import SectionTecnologiaIOT from './components/Section.TecnologiaIOT'
+import SectionGruas from './components/Section.Gruas'
+import SectionMotores from './components/Section.Motores'
+import SectionSolucionesTecnologicas from './components/Section.SolucionesTecnologicas'
+import SectionContacto from './components/Section.Contacto'
+import SectionPalabras from './components/Section.Palabras'
 
 function App() {
-  const PDFFILE = `${BROCHURE}#toolbar=0&navpanes=0&scrollbar=0`
 
   return (
-    <>
-      {/* <div className='bg-black w-full min-h-screen'>
-        <iframe
-          className='h-screen'
-          src={PDFFILE}
-          width="100%"
-          style={{ border: 'none' }}
-        />
-      </div> */}
+    <div className='w-full overflow-hidden md:overflow-auto min-h-screen '>
+      {/* BANDERAS */}
+      <SectionBanderas />
 
-      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-        <div className='w-full min-h-screen'>
-          <Viewer fileUrl={PDFFILE} />
+      {/* CONTENT PAGE */}
+      <SectionHeros />
 
-        </div>
-      </Worker>
-    </>
+      {/* SERVICIOS ICONS */}
+      <SectionServiciosIcon />
+
+      {/* METALMECANICA */}
+      <SectionMetalmecanica />
+
+      {/* INSTRUMENTACION */}
+      <SectionInstrumentacion />
+
+      {/* ELECTRONICA */}
+      <SectionElectronica />
+
+      {/* ELECTRICIDAD */}
+      <SectionElectricidad/>
+
+      {/* SUMINISTROS */}
+      <SectionSuministros/>
+
+      {/* LAMPARA */}
+      <SectionLampara/>
+
+      {/* PANELES SOLARES */}
+      <SectionPanelSolar/>
+
+      {/* TECNOLOGIA IOT */}
+      <SectionTecnologiaIOT/>
+
+      {/* GRUAS GROVE Y KONECRANES */}
+      <SectionGruas/>
+
+      {/* MOTORES DE CALIDAD */}
+      <SectionMotores/>
+
+      {/* SOLUCIONES TECNOLOGICAS */}
+      <SectionSolucionesTecnologicas/>
+
+      {/* CONTACTO */}
+      <SectionContacto/>
+      
+      {/* PALABRAS */}
+      <SectionPalabras/>
+
+    </div>
   )
 }
 
