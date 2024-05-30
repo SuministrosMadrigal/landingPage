@@ -2,7 +2,9 @@ import React from 'react'
 
 const SectionHeros = () => {
     return (
-        <div className='md:mt-20 mt-[60%] relative w-full h-fit bg-fondo bg-cover bg-no-repeat'>
+        <div className='md:mt-20 mt-[60%] relative w-full h-fit bg-fondo bg-cover bg-no-repeat' style={{
+            backgroundImage: "url(./fondoAzul.webp)"
+        }}>
             <img src="./fondo.webp" className='absolute hidden md:block w-full h-full ' alt="" />
             <div className='w-full h-fit pt-[55%] px-5 md:px-20'>
                 <img src="./icon1.webp" className='md:w-[110px] md:h-[110px] w-[70px] mx-auto md:m-0' alt="" />
