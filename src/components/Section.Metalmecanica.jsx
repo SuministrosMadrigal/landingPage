@@ -2,7 +2,11 @@ import React from 'react'
 
 const SectionMetalmecanica = () => {
     return (
-        <div className='w-full h-fit flex justify-center flex-col py-24 bg-metalm bg-center bg-cover bg-no-repeat bg-[#1D5E9D] px-10 md:px-20'>
+        <div className='w-full h-fit flex justify-center flex-col py-24 bg-metalm bg-center bg-cover bg-no-repeat bg-[#1D5E9D] px-10 md:px-20'
+            style={{
+                backgroundImage: "url('./metalm.webp')"
+            }}
+        >
 
             <div className='flex items-center space-x-5'>
                 <div className='md:w-7 md:h-7 w-4 h-4 rounded-full bg-white '>
