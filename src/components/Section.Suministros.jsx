@@ -2,7 +2,11 @@ import React from 'react'
 
 const SectionSuministros = () => {
     return (
-        <div className='w-full h-[70vh] md:h-[120vh] flex justify-end bg-suministrosImg md:pr-10 bg-cover bg-center bg-no-repeat'>
+        <div className='w-full h-[70vh] md:h-[120vh] flex justify-end bg-suministrosImg md:pr-10 bg-cover bg-center bg-no-repeat'
+            style={{
+                backgroundImage: "url('./suministrosImg.webp')"
+            }}
+        >
             <div className='md:w-1/2 w-full relative mt-20'>
                 <div className='md:w-full w-[60%] py-2 px-5 ml-auto md:px-3 rounded-l-full flex justify-center bg-[#0B78BB] '>
                     <h2 className='md:text-[83px] text-[22px] uppercase font-bold text-white'>importacion de</h2>

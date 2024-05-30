@@ -3,7 +3,11 @@ import React from 'react'
 const SectionInstrumentacion = () => {
     return (
         <div className='w-full h-fit relative flex justify-center flex-col  '>
-            <div className='w-full h-full bg-img-instru absolute grayscale-[70] bg-center bg-no-repeat bg-cover'>
+            <div className='w-full h-full bg-img-instru absolute grayscale-[70] bg-center bg-no-repeat bg-cover'
+                style={{
+                    backgroundImage: "url('./img3.webp')"
+                }}
+            >
 
             </div>
 
