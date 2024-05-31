@@ -3,7 +3,11 @@ import React from 'react'
 const SectionTecnologiaIOT = () => {
     return (
         <div className='w-full h-fit relative pt-16 pl-5 md:pl-10'>
-            <div className='bg-techiot bg-cover bg-center absolute inset-0 bg-no-repeat grayscale-[100] w-full h-full' />
+            <div className='bg-techiot bg-cover bg-center absolute inset-0 bg-no-repeat grayscale-[100] w-full h-full'
+                style={{
+                    backgroundImage: "url('./techiot.webp')"
+                }}
+            />
             <div className='bg-[#1D5E9D] w-[80%] md:w-full max-w-[900px] space-x-4 md:space-x-0 py-5 md:px-10 rounded-full z-[1] grayscale-0 flex justify-center md:justify-start items-center'>
                 <div className='md:w-[30px] w-[15px] h-[15px] md:h-[30px] bg-white rounded-full md:mr-16' />
                 <h2 className='text-white uppercase font-bold text-[20px] md:text-[80px] '>tecnologia iot</h2>

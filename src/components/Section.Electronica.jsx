@@ -4,9 +4,9 @@ const SectionElectronica = () => {
     return (
         <div className="w-full h-screen overflow-hidden relative">
             {/* Background Image */}
-            <div className="w-full h-full absolute inset-0 z-10 bg-img-electronica bg-center bg-cover bg-no-repeat" 
+            <div className="w-full h-full absolute inset-0 z-10 bg-img-electronica bg-center bg-cover bg-no-repeat"
                 style={{
-                    backgroundImage:"url(./metalm.webp)"
+                    backgroundImage: "url(./metalm.webp)"
                 }}
             />
 
@@ -32,10 +32,14 @@ const SectionElectronica = () => {
                 </div>
             </div>
 
+            <div className='md:w-1/2 w-full  relative inset-0 flex pt-20  h-full z-40'>
+                <img src="./rombo1.webp" className="md:w-[40vw] w-1/2 h-[40%] absolute md:h-[60vh] left-1/2 md:top-5 md:left-0" alt="" />
+                <img src="./rombo2.webp" className="md:w-[40vw] w-1/2 h-[40%] absolute md:h-[60vh] md:top-[38%] md:left-[30%]" alt="" />
+            </div>
+
             {/* Additional Images */}
-            <div className="md:w-1/2 w-full mt-[80%] absolute inset-0 flex pt-20 justify-start h-full z-40">
-                <img src="./rombo1.webp" className="md:w-[40vw] w-1/2 h-[40%] md:h-[60%] left-1/2 md:top-10 md:left-20" alt="" />
-                <img src="./rombo2.webp" className="md:w-[40vw] w-1/2 h-[40%] md:h-[60%] md:top-[38%] md:left-[50%]" alt="" />
+            <div className="">
+
             </div>
         </div>
     )

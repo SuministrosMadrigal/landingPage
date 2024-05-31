@@ -13,7 +13,11 @@ const SectionPanelSolar = () => {
                     Descubre la eficiencia energética del futuro con nuestros paneles solares de alta calidad. Nuestros paneles fotovoltaicos aprovechan la luz solar para generar electricidad limpia y renovable, reduciendo la dependencia de fuentes de energía basadas en combustibles fósiles y disminuyendo las emisiones de carbono. Estos paneles están compuestos por celdas solares de materiales semiconductores como el silicio, que crean una corriente eléctrica al exponerse al sol. La electricidad generada puede alimentar hogares, negocios y ciudades enteras, promoviendo un uso más sostenible de la energía.
                 </h2>
 
-                <div className='md:w-full md:max-w-[600px] w-[30%] h-full absolute right-0 top-36 md:top-28 bg-panelsolar bg-contain bg-no-repeat ' />
+                <div className='md:w-full md:max-w-[600px] w-[30%] h-full absolute right-0 top-36 md:top-28 bg-panelsolar bg-contain bg-no-repeat ' 
+                    style={{
+                        backgroundImage: "url('./panelsolar.webp')"
+                    }}
+                />
             </div>
             <div className='w-full relative flex overflow-hidden flex-col h-fit px-[8%]'>
                 <h2 className='text-[#1D5E9D] mt-10 text-[12px] md:text-[30px]'>

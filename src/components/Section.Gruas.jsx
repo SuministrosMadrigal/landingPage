@@ -3,7 +3,11 @@ import React from 'react'
 const SectionGruas = () => {
     return (
         <div className='w-full relative h-fit bg-[#1D5E9D] px-10'>
-            <div className='bg-grua absolute inset-0 bg-cover bg-bottom bg-no-repeat w-full h-full' />
+            <div className='bg-grua absolute inset-0 bg-cover bg-bottom bg-no-repeat w-full h-full' 
+                style={{
+                    backgroundImage: "url('./grua.webp')"
+                }}
+            />
 
             <div className='flex justify-center pt-12 items-center space-x-1 w-full h-fit grayscale-0'>
                 <div className='md:w-[30px] w-[15px] h-[15px] md:h-[30px] mr-5 bg-white rounded-full md:mr-10' />

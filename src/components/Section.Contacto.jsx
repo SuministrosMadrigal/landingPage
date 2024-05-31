@@ -4,7 +4,11 @@ import React from 'react'
 const SectionContacto = () => {
     return (
         <div className='w-full relative min-h-screen'>
-            <div className='bg-trianguloC w-full h-[120vh] bg-cover bg-no-repeat ' >
+            <div className='bg-trianguloC w-full h-[120vh] bg-cover bg-no-repeat ' 
+                style={{
+                    backgroundImage:"url('./trianguloCompleto.webp')"
+                }}
+            >
                 <div className='flex items-center bg-[#2B88C3] mx-auto rounded-full py-8 px-6 w-fit'>
                     <Mail className='md:w-[200px] w-[50px] h-[75px] mr-4 md:h-[150px] text-white' />
                     <div>
