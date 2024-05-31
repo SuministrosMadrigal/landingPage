@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const SectionPanelSolar = () => {
     return (
@@ -13,7 +14,17 @@ const SectionPanelSolar = () => {
                     Descubre la eficiencia energética del futuro con nuestros paneles solares de alta calidad. Nuestros paneles fotovoltaicos aprovechan la luz solar para generar electricidad limpia y renovable, reduciendo la dependencia de fuentes de energía basadas en combustibles fósiles y disminuyendo las emisiones de carbono. Estos paneles están compuestos por celdas solares de materiales semiconductores como el silicio, que crean una corriente eléctrica al exponerse al sol. La electricidad generada puede alimentar hogares, negocios y ciudades enteras, promoviendo un uso más sostenible de la energía.
                 </h2>
 
-                <div className='md:w-full md:max-w-[600px] w-[30%] h-full absolute right-0 top-36 md:top-28 bg-panelsolar bg-contain bg-no-repeat ' 
+                <motion.div
+                    initial={{
+                        opacity: 0,
+                        translateX: 100
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        translateX: 0
+                    }}
+                    transition={{ duration: 0.7 }}
+                    className='md:w-full md:max-w-[600px] w-[30%] h-full absolute right-0 top-36 md:top-28 bg-panelsolar bg-contain bg-no-repeat '
                     style={{
                         backgroundImage: "url('./panelsolar.webp')"
                     }}
@@ -24,13 +35,63 @@ const SectionPanelSolar = () => {
                     Al instalarse en viviendas, los paneles solares pueden reducir significativamente las facturas de electricidad y proporcionar una fuente de energía confiable y respetuosa con el medio ambiente. Además de beneficiar a los hogares, contribuyen a la producción de energía a gran escala en las ciudades, ayudando a mitigar el impacto ambiental urbano. Nuestros paneles solares están diseñados para ofrecer un rendimiento duradero y son una inversión inteligente tanto para aplicaciones residenciales como comerciales. Únete a nosotros en la construcción de un futuro más limpio y verde para las generaciones venideras.
                 </h2>
 
-                <img src='./panelsolar2.webp' className='md:w-[60%] w-[80%] mx-auto -translate-y-5 md:-translate-y-16' />
+                <motion.img
+                    initial={{
+                        opacity: 0,
+                        translateX: 100
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        translateX: 0
+                    }}
+                    transition={{ duration: 0.7 }}
+                    src='./panelsolar2.webp' className='md:w-[60%] w-[80%] mx-auto -translate-y-5 md:-translate-y-16' />
 
                 <div className='w-full -translate-y-8 md:-translate-y-16 h-fit flex items-center justify-between'>
-                    <img src="./Palmetto.webp" alt="" className='w-1/4 md:h-full' />
-                    <img src="./green-home.webp" alt="" className='w-1/4 md:h-full' />
-                    <img src="./SunPower.webp" alt="" className='w-1/4 md:h-full' />
-                    <img src="./energypal.webp" alt="" className='w-1/4 md:h-full' />
+                    <motion.img
+                        initial={{
+                            opacity: 0,
+                            translateX: 100
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            translateX: 0
+                        }}
+                        transition={{ duration: 0.7 }}
+                        src="./Palmetto.webp" alt="" className='w-1/4 md:h-full' />
+                    <motion.img
+                        initial={{
+                            opacity: 0,
+                            translateX: -100
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            translateX: 0
+                        }}
+                        transition={{ duration: 0.7 }}
+                        src="./green-home.webp" alt="" className='w-1/4 md:h-full' />
+                    <motion.img
+                        initial={{
+                            opacity: 0,
+                            translateX: -100
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            translateX: 0
+                        }}
+                        transition={{ duration: 0.7 }}
+                        src="./SunPower.webp" alt="" className='w-1/4 md:h-full' />
+                    <motion.img
+                        initial={{
+                            opacity: 0,
+                            translateX: 100
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            translateX: 0
+                        }}
+                        transition={{ duration: 0.7 }}
+                        src="./energypal.webp" alt="" className='w-1/4 md:h-full' />
                 </div>
             </div>
         </>

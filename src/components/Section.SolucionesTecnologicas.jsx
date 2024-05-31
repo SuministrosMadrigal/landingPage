@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const SectionSolucionesTecnologicas = () => {
     return (
@@ -25,7 +26,19 @@ const SectionSolucionesTecnologicas = () => {
                     </h4>
                 </div>
 
-                <img src='./laptop.webp' className='w-[30%] md:w-full' />
+                <motion.img 
+                initial={{
+                    opacity:0,
+                    translateX:200
+                }}
+                whileInView={{
+                    opacity:1,
+                    translateX:0
+                }}
+                transition={{
+                    duration:0.7
+                }}
+                src='./laptop.webp' className='w-[30%] md:w-full' />
 
 
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const SectionSuministros = () => {
     return (
@@ -19,10 +20,58 @@ const SectionSuministros = () => {
                 </h3>
 
                 <div className='w-full h-fit absolute bottom-10 right-0 flex justify-end md:space-x-9 items-center'>
-                    <img src="./abb.webp" className='md:w-[110px] w-1/4 h-full md:h-[110px]' alt="" />
-                    <img src="./abexport.webp" className='md:w-[110px] w-1/4 h-full md:h-[110px]' alt="" />
-                    <img src="./rockwell.webp" className='md:w-[190px] w-1/4 h-full md:h-[50px]' alt="" />
-                    <img src="./schneider.webp" className='md:w-[150px] w-1/4 h-full md:h-[110px]' alt="" />
+                    <motion.img
+                    initial={{
+                        opacity:0,
+                        translateX:-200
+                    }}
+                    whileInView={{
+                        opacity:1,
+                        translateX:0
+                    }}
+                    transition={{duration:0.7,
+                        delay:0.2
+                    }}
+                    src="./abb.webp" className='md:w-[110px] w-1/4 h-full md:h-[110px]' alt="" />
+                    <motion.img
+                    initial={{
+                        opacity:0,
+                        translateX:-200
+                    }}
+                    whileInView={{
+                        opacity:1,
+                        translateX:0
+                    }}
+                    transition={{duration:0.7,
+                        delay:0.4
+                    }}
+                    src="./abexport.webp" className='md:w-[110px] w-1/4 h-full md:h-[110px]' alt="" />
+                    <motion.img
+                    initial={{
+                        opacity:0,
+                        translateX:-200
+                    }}
+                    whileInView={{
+                        opacity:1,
+                        translateX:0
+                    }}
+                    transition={{duration:0.7,
+                        delay:0.6
+                    }}
+                    src="./rockwell.webp" className='md:w-[190px] w-1/4 h-full md:h-[50px]' alt="" />
+                    <motion.img
+                    initial={{
+                        opacity:0,
+                        translateX:-200
+                    }}
+                    whileInView={{
+                        opacity:1,
+                        translateX:0
+                    }}
+                    transition={{duration:0.7,
+                        delay:0.8
+                    }}
+                    src="./schneider.webp" className='md:w-[150px] w-1/4 h-full md:h-[110px]' alt="" />
                 </div>
             </div>
         </div>

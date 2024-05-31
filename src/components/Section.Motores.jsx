@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const SectionMotores = () => {
     return (
@@ -12,7 +13,17 @@ const SectionMotores = () => {
 
             <div className='flex '>
                 <div className='w-[40%] hidden md:block'>
-                    <img src='./tuercaMotores.webp' className='w-full h-full' />
+                    <motion.img 
+                    initial={{
+                        opacity:0,
+                        translateX:-100
+                    }}
+                    whileInView={{
+                        opacity:1,
+                        translateX:0
+                    }}
+                    transition={{duration:0.7}}
+                    src='./tuercaMotores.webp' className='w-full h-full' />
 
                 </div>
 

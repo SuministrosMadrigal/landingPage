@@ -19,7 +19,7 @@ import SectionPalabras from './components/Section.Palabras'
 function App() {
 
   return (
-    <div className='w-full overflow-hidden md:overflow-auto min-h-screen '>
+    <div className='w-full overflow-hidden min-h-screen '>
       {/* BANDERAS */}
       <SectionBanderas />
 

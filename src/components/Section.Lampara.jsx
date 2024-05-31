@@ -1,15 +1,40 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const SectionLampara = () => {
     return (
         <div className='w-full relative flex flex-col  h-full pt-20 bg-[#1D5E9D] px-[5%] md:px-[10%]'>
 
-            <div className='absolute left-0 top-10 z-[2] w-[30%] h-[90%] bg-lampara1 bg-contain bg-no-repeat' 
+            <motion.div 
+            initial={{
+                opacity:0,
+                translateX:-200
+            }}
+            whileInView={{
+                opacity:1,
+                translateX:0
+            }}
+            transition={{
+                duration:0.4
+            }}
+            className='absolute left-0 top-10 z-[2] w-[30%] h-[90%] bg-lampara1 bg-contain bg-no-repeat' 
                 style={{
                     backgroundImage: "url('./lampara1.webp')"
                 }}
             />
-            <div className='absolute left-[7%] z-[1] top-28 w-[30%] h-[70%] bg-lampara2 bg-contain bg-no-repeat' 
+            <motion.div 
+            initial={{
+                opacity:0,
+                translateX:-200
+            }}
+            whileInView={{
+                opacity:1,
+                translateX:0
+            }}
+            transition={{
+                duration:0.6
+            }}
+            className='absolute left-[7%] z-[1] top-28 w-[30%] h-[70%] bg-lampara2 bg-contain bg-no-repeat' 
                 style={{
                     backgroundImage: "url('./lampara2.webp')"
                 }}
