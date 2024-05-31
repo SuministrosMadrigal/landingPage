@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const SectionSuministros = () => {
     return (
-        <div className='w-full h-[70vh] md:h-[120vh] flex justify-end bg-suministrosImg md:pr-10 bg-cover bg-center bg-no-repeat'
+        <div className='w-full h-fit md:h-fit flex justify-end bg-suministrosImg md:pr-10 bg-cover bg-center bg-no-repeat'
             style={{
                 backgroundImage: "url('./suministrosImg.webp')"
             }}
@@ -19,7 +19,7 @@ const SectionSuministros = () => {
                     Nos especializamos en la importación y suministro oportuno de una amplia gama de productos y materiales necesarios para proyectos industriales. Nuestra red logística nos permite garantizar la disponibilidad y calidad de los suministros, asegurando una gestión eficiente que cumple con las necesidades de nuestros clientes.
                 </h3>
 
-                <div className='w-full h-fit absolute bottom-10 right-0 flex justify-end md:space-x-9 items-center'>
+                <div className='w-full h-fit relative my-7 md:my-20 bottom-10 right-0 flex justify-end md:space-x-9 items-center'>
                     <motion.img
                     initial={{
                         opacity:0,
@@ -32,7 +32,7 @@ const SectionSuministros = () => {
                     transition={{duration:0.7,
                         delay:0.2
                     }}
-                    src="./abb.webp" className='md:w-[110px] w-1/4 h-full md:h-[110px]' alt="" />
+                    src="./abb.webp" className='md:w-[110px] w-[40px] h-full md:h-[110px]' alt="" />
                     <motion.img
                     initial={{
                         opacity:0,
@@ -45,7 +45,7 @@ const SectionSuministros = () => {
                     transition={{duration:0.7,
                         delay:0.4
                     }}
-                    src="./abexport.webp" className='md:w-[110px] w-1/4 h-full md:h-[110px]' alt="" />
+                    src="./abexport.webp" className='md:w-[110px] w-[40px] h-full md:h-[110px]' alt="" />
                     <motion.img
                     initial={{
                         opacity:0,
@@ -58,7 +58,7 @@ const SectionSuministros = () => {
                     transition={{duration:0.7,
                         delay:0.6
                     }}
-                    src="./rockwell.webp" className='md:w-[190px] w-1/4 h-full md:h-[50px]' alt="" />
+                    src="./rockwell.webp" className='md:w-[190px] w-[70px] h-full md:h-[50px]' alt="" />
                     <motion.img
                     initial={{
                         opacity:0,
@@ -71,7 +71,7 @@ const SectionSuministros = () => {
                     transition={{duration:0.7,
                         delay:0.8
                     }}
-                    src="./schneider.webp" className='md:w-[150px] w-1/4 h-full md:h-[110px]' alt="" />
+                    src="./schneider.webp" className='md:w-[150px] w-[90px] h-full md:h-[110px]' alt="" />
                 </div>
             </div>
         </div>
