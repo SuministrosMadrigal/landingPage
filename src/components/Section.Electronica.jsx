@@ -32,18 +32,18 @@ const SectionElectronica = () => {
                     }}
                     transition={{duration:0.6}}
                     className="w-fit rounded-l-full mt-20 flex items-center px-7 py-4 md:px-10 bg-white">
-                        <h2 className="md:text-7xl text-[20px] ml-auto text-[#0B78BB] font-bold md:ml-12">ELECTRÓNICA</h2>
+                        <h2 className="md:text-[5vw] text-[20px] ml-auto text-[#0B78BB] font-bold md:ml-12">ELECTRÓNICA</h2>
                         <div className="md:w-7 md:h-7  w-4 h-4 bg-[#0B78BB] rounded-full ml-3 mr-10 md:mr-0 md:ml-7"></div>
                     </motion.div>
                     <div className="w-full mt-10 px-4">
-                        <p className="text-white font-light md:text-3xl text-[18px] text-center md:text-right">
+                        <p className="text-white font-light text-[3vw] text-center md:text-right">
                             Nos destacamos por nuestro expertise en el diseño y desarrollo de soluciones electrónicas innovadoras para diversas aplicaciones industriales. Nuestros productos y servicios en el ámbito electrónico se distinguen por su fiabilidad, eficiencia y capacidad para satisfacer las demandas más exigentes del mercado.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div className='md:w-1/2 w-full mt-[45vh] md:mt-0 relative inset-0 flex pt-20  h-full z-40'>
+            <div className='md:w-1/2 w-full mt-[45vh] md:mt-0 relative inset-0 flex pt-[1%]  h-full z-40'>
                 <motion.img 
                 initial={{
                     opacity:0.2

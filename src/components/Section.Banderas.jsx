@@ -20,7 +20,7 @@ const SectionBanderas = () => {
             animate={{translateX:0,opacity:1}}
             transition={{ duration: 0.7 }}
             src='./logo.webp' 
-            className='md:w-[750px] md:h-[300px] absolute top-28  right-0 md:top-48 md:right-10' />
+            className='md:w-[750px] md:h-[300px] absolute top-28 z-10 right-0 md:top-48 md:right-[1%]' />
         </div>
     )
 }

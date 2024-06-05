@@ -25,7 +25,7 @@ const SectionMetalmecanica = () => {
                 <div className='md:w-7 md:h-7 w-4 h-4 rounded-full bg-white '>
 
                 </div>
-                <h2 className='md:text-[83px] text-[32px] text-white font-bold'>METALMECÁNICA</h2>
+                <h2 className='md:text-[5vw] text-[32px] text-white font-bold'>METALMECÁNICA</h2>
 
             </motion.div>
 
@@ -41,7 +41,7 @@ const SectionMetalmecanica = () => {
             transition={{
                 duration:0.9
             }}
-            className='md:w-[55%] w-[80%] mt-20 text-[18px] md:text-[32px] text-white font-light'>
+            className='md:w-[55%] w-[80%] mt-20 text-[18px] md:text-[2.5vw] text-white font-light'>
                 Ofrecemos soluciones integrales en metalmecánica, destacándonos por nuestra experiencia en el diseño y fabricación de componentes metálicos de alta precisión para una amplia gama de industrias. Nuestro compromiso con la calidad y la innovación nos permite satisfacer las necesidades más exigentes de nuestros clientes, garantizando la excelencia en cada proyecto.
             </motion.p>
         </div>

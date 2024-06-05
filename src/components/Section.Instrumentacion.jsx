@@ -28,7 +28,7 @@ const SectionInstrumentacion = () => {
 
                     </div>
                     <h2 
-                    className='md:text-[83px] text-[20px] text-white uppercase font-bold'>Instrumentación</h2>
+                    className='md:text-[5vw] text-[20px] text-white uppercase font-bold'>Instrumentación</h2>
 
                 </motion.div>
 
@@ -42,7 +42,7 @@ const SectionInstrumentacion = () => {
                     opacity:1
                 }}
                 transition={{duration:0.9}}
-                className='text-start mt-10 text-[14px] md:text-[32px] pl-10 md:pl-20 mr-10 text-white font-light'>
+                className='text-start mt-10 text-[14px] md:text-[2.5vw] pl-10 md:pl-20 mr-10 text-white font-light'>
                     Nuestra experiencia en soluciones de instrumentación nos posiciona como líderes en la provisión e instalación de sistemas de control y medición de vanguardia. Nos enfocamos en ofrecer soluciones personalizadas que cumplen con los más altos estándares de calidad, asegurando el óptimo funcionamiento de los procesos industriales.
                 </motion.p>
             </div>

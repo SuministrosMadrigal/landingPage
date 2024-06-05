@@ -75,7 +75,7 @@ const ServicioIconCard = ({icon,titulo,index}) => {
         }}
         className='w-full flex flex-col justify-center items-center space-y-3 h-fit'>
             <img src={icon} className='md:w-32 md:h-32 w-16 h-16' alt="" />
-            <h4 className='text-white font-semibold md:text-[27px] text-[15px] uppercase text-center'>{titulo}</h4>
+            <h4 className='text-white font-semibold md:text-[2vw] text-[15px] uppercase text-center'>{titulo}</h4>
         </motion.div>
     )
 }

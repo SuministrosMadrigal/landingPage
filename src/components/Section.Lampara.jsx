@@ -34,7 +34,7 @@ const SectionLampara = () => {
             transition={{
                 duration:0.6
             }}
-            className='absolute left-[7%] z-[1] top-28 w-[30%] h-[70%] bg-lampara2 bg-contain bg-no-repeat' 
+            className='absolute left-[7%] z-[1] top-28 w-[30vw] h-[70%] bg-lampara2 bg-contain bg-no-repeat' 
                 style={{
                     backgroundImage: "url('./lampara2.webp')"
                 }}
@@ -42,10 +42,10 @@ const SectionLampara = () => {
 
             <div className='flex items-center z-[3] mx-auto'>
                 <div className='md:w-[30px] md:h-[30px] w-[15px] h-[15px] bg-white rounded-full mr-4 md:mr-10'></div>
-                <h3 className='md:ml-3 md:text-[83px] text-[24px] text-white font-bold'>LÁMPARAS INDUSTRIALES</h3>
+                <h3 className='md:ml-3 md:text-[5vw] text-[24px] text-white font-bold'>LÁMPARAS INDUSTRIALES</h3>
             </div>
 
-            <p className='w-[68vw] md:ml-auto mb-[15%] z-[3] ml-[13%] text-[14px] md:text-[32px] text-white mt-10'>
+            <p className='w-[68vw] md:ml-auto mb-[15%] z-[3] ml-[13%] text-[2.5vw] text-white mt-10'>
                 Explore nuestra extensa selección de lámparas industriales, cuidadosamente diseñadas para brindar iluminación óptima y eficiente en entornos laborales exigentes. En nuestra empresa, nos especializamos en trabajar con una amplia variedad de lámparas, desde las convencionales hasta las más avanzadas en tecnología LED. Nuestros productos se distinguen por su alto rendimiento, bajo consumo energético y durabilidad excepcional. Ya sea para almacenes, fábricas o espacios industriales, nuestras soluciones de iluminación están diseñadas para satisfacer las necesidades más exigentes. Potencie la productividad y seguridad en su lugar de trabajo con nuestras lámparas industriales de calidad superior.
             </p>
         </div>
